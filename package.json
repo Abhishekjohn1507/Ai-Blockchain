@@ -1,0 +1,42 @@
+{
+  "name": "ai-blockchain-visual-cryptography",
+  "version": "1.0.0",
+  "description": "AI-Based Blockchain-Integrated Visual Cryptography System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "jest",
+    "compile": "hardhat compile",
+    "deploy": "hardhat deploy"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0",
+    "express": "^4.18.2",
+    "ethers": "^6.7.0",
+    "ipfs-http-client": "^60.0.0",
+    "mongoose": "^7.3.0",
+    "web3": "^4.0.1",
+    "opencv4nodejs": "^5.6.0",
+    "sharp": "^0.32.1",
+    "@tensorflow/tfjs-node": "^4.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "hardhat": "^2.15.0",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^4.0.10",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "@metamask/providers": "^13.0.0",
+    "typescript": "^5.0.0"
+  }
+} 

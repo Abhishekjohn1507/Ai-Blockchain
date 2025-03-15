@@ -1,0 +1,9 @@
+numpy>=1.26.0
+opencv-python>=4.9.0
+pillow>=10.2.0
+tensorflow>=2.15.0
+torch>=2.2.0
+web3>=6.15.0
+python-dotenv>=1.0.0
+ipfshttpclient==0.8.0a2
+cryptography>=42.0.0 
